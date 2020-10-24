@@ -28,7 +28,7 @@ Name|Description|Type|Default Value
 
 Name|Description|Value
 |:--|:--------- |:----
-|`alert-scope`|The Load Balancers to scope the alerts to|data.azurerm_lb.lb.*
+|`alert-scope`|The Load Balancers to scope the alerts to|data.azurerm_resources.existing.*
 |`metric-alerts`|The Azure Monitor Metric Alerts created|azurerm_monitor_metric_alert.alert
 |`metric-alerts-nodimensions`|The Azure Monitor Metric Alerts with no criteria dimensions created|azurerm_monitor_metric_alert.alert-nodimensions
 
