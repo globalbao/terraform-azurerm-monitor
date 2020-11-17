@@ -45,7 +45,7 @@ Name|Description|Value
     Environment = "dev"
     ManagedBy   = "Jesse Loudon"
     Owner       = "Jesse Loudon"
-    Support     = "gitbao@outlook.com"
+    Support     = "coder_au@outlook.com"
   }
 
   alertScope = {

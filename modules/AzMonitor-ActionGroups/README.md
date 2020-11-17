@@ -39,7 +39,7 @@ module "azmonitor-action-groups" {
     Environment = "dev"
     ManagedBy   = "Jesse Loudon"
     Owner       = "Jesse Loudon"
-    Support     = "gitbao@outlook.com"
+    Support     = "coder_au@outlook.com"
   }
 
   actionGroups = {
@@ -51,7 +51,7 @@ module "azmonitor-action-groups" {
       actionGroupEmailReceiver = [
         {
           name                    = "jloudon"
-          email_address           = "gitbao@outlook.com"
+          email_address           = "coder_au@outlook.com"
           use_common_alert_schema = "true"
         }
       ]
@@ -64,7 +64,7 @@ module "azmonitor-action-groups" {
       actionGroupEmailReceiver = [
         {
           name                    = "jloudon"
-          email_address           = "gitbao@outlook.com"
+          email_address           = "coder_au@outlook.com"
           use_common_alert_schema = "true"
         }
       ]
